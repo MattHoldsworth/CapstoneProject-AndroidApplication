@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="question1">
+        <item>Gloomy</item>
+        <item>Dim</item>
+        <item>Comfortable</item>
+        <item>Glary</item>
+        <item>Bright</item>
+    </string-array>
+    <string-array name="question2">
+        <item>Very interesting</item>
+        <item>Not Interesting</item>
+        <item>Unsure</item>
+        <item>Interesting</item>
+        <item>No Viewing Windows</item>
+    </string-array>
+    <string-array name="question3">
+        <item>&lt; 1 Week</item>
+        <item>&lt; 1 Month</item>
+        <item>&lt; 6 Months</item>
+        <item>&lt; 6 Months</item>
+    </string-array>
+    <string-array name="question4">
+        <item>Glasses</item>
+        <item>Contacts</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="question5">
+        <item>&lt; 30</item>
+        <item>&lt; 40</item>
+        <item>&lt; 50</item>
+        <item>&lt; 65</item>
+        <item>&#94; 65 Over</item>
+    </string-array>
+    <string-array name="question6">
+        <item>All Week</item>
+        <item>3-4 Days</item>
+        <item>1-2 Days</item>
+        <item>Never</item>
+    </string-array>
+</resources>

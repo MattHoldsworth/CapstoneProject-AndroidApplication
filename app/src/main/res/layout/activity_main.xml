@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:layout_weight="1"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTitle"
+        android:textSize="18dp"
+        />
+
+    <!-- SURVEY FINISHED -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:visibility="gone"
+        android:id="@+id/surveyFinished"
+        android:text="@string/surveyFinished_message"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cameraButton"
+        android:layout_marginTop="16dp"
+        android:text="Launch Camera"
+        android:layout_below="@id/surveyFinished"
+        android:visibility="gone"
+        />
+
+    <!-- END SURVEY FINISHED -->
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+        android:id="@+id/questionList"
+        android:layout_below="@id/questionTitle"
+        android:layout_marginTop="20dp"
+        >
+
+        </ListView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_marginTop="16dp"
+        android:text="Next"
+        android:id="@+id/nextQuestionButton"
+        android:layout_below="@id/questionList"
+        />
+</RelativeLayout>

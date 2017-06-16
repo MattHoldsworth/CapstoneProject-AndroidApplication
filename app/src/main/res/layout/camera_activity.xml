@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#bbb"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <Button
+            android:id="@+id/button_ChangeCamera"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Switch Camera"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/finishedButton"
+            android:text="0/7"
+            android:textStyle="bold"
+            android:textColor="#ff4274ff"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/button_capture"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Capture"
+            android:textColor="#ff42ff6f"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:id="@+id/exitButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:textStyle="bold"
+            android:textColor="#ffff6778"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</LinearLayout>

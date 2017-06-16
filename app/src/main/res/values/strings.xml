@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Survey</string>
+    <string name="surveyFinished_message">The results have been saved!\n \nNow you can take a photo!</string>
+    <string name="action_settings">Settings</string>
+</resources>
